@@ -1,0 +1,64 @@
+.homebutton {
+    position: absolute;
+    width: 5pc;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 5pc;
+}
+
+.carousel-indicators {
+    margin-bottom: -2pc;
+}
+
+.carousel {
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.carousel-inner {
+    width: 80% !important;
+    margin: 0 auto !important;
+}
+
+.carousel-control-prev{
+    width: 10% !important;
+}
+
+.bioscopenHome{
+    text-align: center;
+    background-color: rgb(147, 169, 190);
+}
+
+.overonsHome{
+    text-align: center;
+    /*border: 5px solid #93a9be;*/
+    background-color:rgb(147, 169, 190);
+}
+
+.bioscopenHome, .overonsHome{
+    margin: 0 auto;
+}
+
+.bioscopenHome img, .overonsHome img{
+    max-width: 207px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .col-5 {
+      width: 100% !important;
+      float: left !important;
+      max-width: 100% !important;
+      flex: 0 0 81.666667% !important;
+      margin: 40px;
+    }
+
+    .sliderImage{
+        width: 100% !important;
+    }
+  }
+
+  .rechts {
+      float: right;
+  }
